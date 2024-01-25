@@ -1,0 +1,37 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container__person {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+  
+  .container__person div {
+    margin-bottom: 5px;
+  }
+  
+  .container__person strong {
+    margin-right: 5px;
+    text-transform: uppercase;
+    color: rgb(2, 104, 104);
+  }
+
+  h1 {
+    text-align: center;
+    color: rgb(2, 104, 104);
+  }
+
+  input {
+    margin-bottom: 10px;
+    padding: 5px;
+    position: fixed;
+    top: 1rem;
+    left: 10%;
+    transform: translateX(-50%);
+    width: 12rem;
+  }
